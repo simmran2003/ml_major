@@ -1,0 +1,1 @@
+input() and [[1 for _ in range(F[4]) if print(1, 2, 4)] or [1 for _ in range(F[2] - F[4]) if print(1, 2, 6)] or [1 for _ in range(F[3]) if print(1, 3, 6)] for F in [__import__("collections").Counter(map(int, input().split()))] if (F[2]+F[3] == F[4]+F[6] == F[1] and not F[7] and not F[5] and F[2]>=F[4] and F[6]>=F[3]) or print(-1)]
